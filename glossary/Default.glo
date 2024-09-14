@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <glossgroup id="Default">
+          <title>Glossary Definitions</title>
+        <glossentry id="Default_Cells"><glossterm>Cells</glossterm><glossdef>Cells are place-holders in the Sudoku Puzzles.   If they initially have a value supplied they are &quot;Givens.&quot;  If they are not solved they are &quot;Holes&quot;.  Holes can be either blank, or they might have Candidates visible on them.</glossdef></glossentry><glossentry id="Default_magic_squares."><glossterm>magic squares.</glossterm><glossdef>A square array of (usually) positive integers, is called a magic square if the sums of each row, column and both diagonals are equivalent.</glossdef></glossentry></glossgroup>

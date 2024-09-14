@@ -1,0 +1,332 @@
+/*Created with Adobe RoboHelp.*/
+body {
+  font-family: Calibri;
+  font-size: 14px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Segoe UI';
+}
+h3 {
+  font-weight: bold;
+  font-size: 19px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 13px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 11px;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000000;
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-size: 20px;
+}
+a.expandspot {
+  color: #008000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.expandtext {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff0000;
+}
+a.dropspot {
+  cursor: pointer;
+  color: #008000;
+  font-style: italic;
+  text-decoration: none;
+}
+/* Styling microcontents' intents for faq pages */
+.faq-dropspot {
+  /* Add !important flag after an attribute to give precedence over a.dropspot. For example color:#FF0000 !important; */
+  cursor: pointer;
+  color: #008000;
+  font-style: italic;
+  text-decoration: none;
+}
+div.faq-droptext {}
+a.glossterm {
+  color: #800000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.glosstext {
+  font-style: italic;
+  font-weight: normal;
+  color: #0000ff;
+}
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+a.minitoc-caption {
+  text-decoration: none;
+  color: initial;
+  font-weight: bold;
+}
+p.minitoc-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.minitoc-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+ol.minitoc-list ol {
+  list-style: none;
+}
+a {}
+a.minitoc-list-item {}
+div.breadcrumbs {}
+span.breadcrumbs-home-prefix {}
+a.breadcrumbs-home {}
+.breadcrumbs-separator {}
+a.breadcrumbs-link {}
+a.breadcrumbs-topic {}
+p.seealso-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.seealso-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.seealso-list-item {}
+p.reltopics-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.reltopics-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.reltopics-list-item {}
+ul.Disc {
+  list-style-type: disc;
+}
+ul.Circle {
+  list-style-type: circle;
+}
+figure {
+  margin-left: 0 px;
+}
+.Topic {
+  font-family: 'Segoe UI';
+  color: #0224FB;
+  font-weight: bold;
+}
+ol.NestedNumbering {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item1;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.NestedNumbering>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.NestedNumbering>li:before {
+  counter-increment: item1;
+  content: counter(item1, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol {
+  list-style: none;
+  --prefix-size: 60.1px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item2;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.NestedNumbering>li>ol>li:before {
+  counter-increment: item2;
+  content: counter(item1, decimal)"." counter(item2, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li {
+  --prefix-size: 60.1px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol {
+  list-style: none;
+  --prefix-size: 90.1px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item3;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.NestedNumbering>li>ol>li>ol>li:before {
+  counter-increment: item3;
+  content: counter(item1, decimal)"." counter(item2, decimal)"." counter(item3, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li>ol>li {
+  --prefix-size: 90.1px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol {
+  --prefix-size: 120.2px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item4;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li {
+  --prefix-size: 120.2px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item4;
+  content: counter(item1, decimal)"." counter(item2, decimal)"." counter(item3, decimal)"." counter(item4, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol {
+  --prefix-size: 150.2px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item5;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li {
+  --prefix-size: 150.2px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item5;
+  content: counter(item1, decimal)"." counter(item2, decimal)"." counter(item3, decimal)"." counter(item4, decimal)"." counter(item5, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li>ol {
+  --prefix-size: 180.3px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item6;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li>ol>li {
+  --prefix-size: 180.3px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item6;
+  content: counter(item1, decimal)"." counter(item2, decimal)"." counter(item3, decimal)"." counter(item4, decimal)"." counter(item5, decimal)"." counter(item6, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+.GlossaryTerm {
+  font-family: 'Segoe UI Black';
+  color: #0000FF;
+  text-decoration: underline;
+  font-size: 24px;
+}
+.GlossaryDefinition {
+  font-family: 'Segoe UI';
+  font-style: italic;
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.Note {
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  background-color: #00FFFF;
+  font-family: 'Segoe UI';
+}
+ol.Decimal {
+  list-style: decimal;
+}
+.GlossaryEntry {
+  font-family: 'Segoe UI Black';
+  font-weight: bold;
+}
