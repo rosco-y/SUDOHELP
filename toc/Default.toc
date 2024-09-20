@@ -2,6 +2,7 @@
 <map type="toc">
 <title>Table of Contents</title>
 <page href="../contents/Glossary.htm" format="html" processing-role="normal"></page>
+<page navtitle="Options" href="../contents/SudoKube_Options.htm" format="html" processing-role="normal"></page>
 <page href="../contents/Setting_Cube_Values.htm" format="html" processing-role="normal"></page>
 <page href="../contents/First_Topic.htm" format="html" processing-role="normal"></page>
 <page href="../contents/What_is_a_SudoKube_.htm" format="html" processing-role="normal"></page>
