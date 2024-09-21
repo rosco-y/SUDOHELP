@@ -12,25 +12,30 @@
   <h1 class="Topic"><span class="expandtext">Glossary</span></h1>
   <p>There are some terms used throughout the help system that it may be helpful to define:</p>
   <p></p>
+  <p></p>
   <ol class="GlossaryDefinition">
+    <li>
+      <h2 class="GlossaryTerm">Candidate</h2>
+      <p>A Candidate is one possible solution for an unsolved cell in a Suduko puzzle.  Until a puzzle is solved there are many situations where a cell may have multiple candidates.  When a value is unknown, a solution might be multiple values (e.g, &quot;this cell may be a 7, 9, 5 or a 6, I just don&#39;t exactly know yet.&quot;)</p>
+      <figure><img height="488" src="assets/images/Screen captures/Layer with Candidates.jpg" width="488" />
+        <figcaption>Sudoku puzzle with some candidates set in the upper right sub-grid.<br />
+          <figure class="Note">Note: Notice that the candidate &#39;1&#39; is not a legal value for the cells in the top and bottom rows of the sub-grid, because their ore 1&#39;s to the left in these same rows.  Similarily, the values &#39;2&#39; and &#39;3&#39; in the 3x3 region preclude the possibility of place a 2 or a 3 in any of other cells in this sub-grid.</figure>
+        </figcaption>
+      </figure>
+    </li>
     <li>
       <h2 class="GlossaryTerm">SudoKube</h2>
       <figure><img height="291" src="assets/images/Screen captures/SUDOKUBE.jpg" width="291" />
-        <figcaption>An isometric view of the SudoKube.</figcaption>        
+        <figcaption>An isometric view of the SudoKube.</figcaption>
       </figure>
-      <p>
-        A SudoKube is a collection of 27 Sudoku puzzles; 9, front-to-back; 9 side-to-side and 9
-        top-to-bottom.  They are layered together in such a way that they form a 3 dimensional cube,
-        remeniscent of the popular Rubik's Cube.
-      </p>
-      <p><span class="GlossaryDefinition"><span class="glosstext">A Layer is a</span></span></p>
+      <p>A SudoKube is a collection of 27 Sudoku puzzles; 9, front-to-back; 9 side-to-side and 9 top-to-bottom. They are layered together in such a way that they form a 3 dimensional cube, remeniscent of the popular Rubik&#39;s Cube. SudoKube</p>
     </li>
-    SudoKube<li>
+    <li>
       <h2 class="GlossaryTerm">Layer</h2>
       <figure><img height="291" src="assets/images/Screen captures/Layer.jpg" width="291" />
         <figcaption>One Layer in SudoKube.</figcaption>
+        <p>A layer is a view of one of the puzzles in SudoKube. In all, there are 27 layers in SudoKube (9 from front-to-back, 9 from side-to-side and 9 from top-to-bottom.) Each layer is a part of the complete SudoKube puzzle.</p>
       </figure>
-      <p><span class="GlossaryDefinition"><span class="glosstext">A Layer is a</span></span></p>
     </li>
     <li><span class="GlossaryTerm">Cell</span><br />
       <span class="GlossaryDefinition">Cells are placeholders for all of the 81 (9x9( Values in a Sudoku Puzzle.  In SudoKube, cells are represented as Cubes, either blank (needing to be solved) or with an initial value (a given.)</span>
@@ -44,9 +49,7 @@
     </li>
     <li><span class="GlossaryTerm">Holes</span><br />
       The term &quot;Holes&quot; refers to cells with no initial value presented to you, the puzzle solver.  The object of Sudoku puzzles is to fill in the holes.<br />
-      <br />
-    <li><span class="GlossaryTerm">Kube</span></li>
-		Short for SudoKube, which is the entire puzzle represented as Layers of Cells.
-    </ol>
+       </li>
+  </ol>
 </body>
 </html>
